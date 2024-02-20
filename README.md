@@ -74,8 +74,11 @@ next step next step next step next step next step next step next step next step 
 next step next step next step next step next step next step next step next step next step next step next step next step 
 
 navigate to [qb]/qb-inventory/server/main.lua
+
 and serch for the line: "elseif name == "traphouse" then"
+
 copy and past this "elseif name == "traphouse" then"
+
 ======================================================================================
 from here from here from here \/-\/-\/-\/ from here from here from here
 
@@ -96,6 +99,9 @@ up to here up to here up to here  /\-/\-/\-/\ up to up to here up to here
 next step next step next step next step next step next step next step next step
 
 navigate to [qb]/qb-inventory/config.lua
+
 copy and past this "Config.BlackMoneyItem = "dirtymoney"
+
 anywhere you like !
+
 ======================================================================================
