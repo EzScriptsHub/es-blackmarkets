@@ -91,3 +91,11 @@ from here from here from here \/-\/-\/-\/ from here from here from here
 up to here up to here up to here  /\-/\-/\-/\ up to up to here up to here 
 
 ======================================================================================
+
+
+next step next step next step next step next step next step next step next step
+
+navigate to [qb]/qb-inventory/config.lua
+copy and past this "Config.BlackMoneyItem = "dirtymoney"
+anywhere you like !
+======================================================================================
