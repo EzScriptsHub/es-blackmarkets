@@ -20,8 +20,8 @@ copy and past this "elseif" above "elseif fromInventory == "crafting" then"
 
 ==================================================================
 from here from here from here from here from here from here
-
-elseif QBCore.Shared.SplitStr(fromInventory, "-")[1] == "dirtyshop" then
+  
+     elseif QBCore.Shared.SplitStr(fromInventory, "-")[1] == "dirtyshop" then
 		local shopType = QBCore.Shared.SplitStr(fromInventory, "-")[2]
 		local itemData = ShopItems[shopType].items[fromSlot]
 		local itemInfo = QBCore.Shared.Items[itemData.name:lower()]
@@ -29,7 +29,7 @@ elseif QBCore.Shared.SplitStr(fromInventory, "-")[1] == "dirtyshop" then
 		local price = tonumber((itemData.price*fromAmount))
         local BlackMoneyItem = Config.BlackMoneyItem
         local hasItem = Player.Functions.HasItem(Config.BlackMoneyItem)
-if QBCore.Shared.SplitStr(shopType, "_")[1] == "dirtyshop" then
+    if QBCore.Shared.SplitStr(shopType, "_")[1] == "dirtyshop" then
             if QBCore.Functions.HasItem(src, Config.BlackMoneyItem, price) then
              local dirtyBalance = Player.Functions.GetItemByName(Config.BlackMoneyItem).amount
                 if dirtyBalance > price then
@@ -67,19 +67,19 @@ if QBCore.Shared.SplitStr(shopType, "_")[1] == "dirtyshop" then
 			end
 		end
 
-        up to here up to here up to here up to up to here up to here 
+up to here up to here up to here up to up to here up to here 
 
 ================================================================================
 next step next step next step next step next step next step next step next step next step next step next step next step next
 next step next step next step next step next step next step next step next step next step next step next step next step 
 
-        navigate to [qb]/qb-inventory/server/main.lua
+navigate to [qb]/qb-inventory/server/main.lua
 and serch for the line: "elseif name == "traphouse" then"
 copy and past this "elseif name == "traphouse" then"
 ======================================================================================
 from here from here from here \/-\/-\/-\/ from here from here from here
 
-elseif name == "dirtyshop" then
+    elseif name == "dirtyshop" then
 				secondInv.name = "dirtyshop-"..id
 				secondInv.label = other.label
 				secondInv.maxweight = 9000000
